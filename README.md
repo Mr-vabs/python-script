@@ -29,4 +29,4 @@ python admit.py
 python result.py
 ```
 
-star the respiratory and contribute if have something to suggest!
+star the repository and contribute if have something to suggest!
