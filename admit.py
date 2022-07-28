@@ -24,7 +24,7 @@ choice = 1
 print("Not supported in Android for now\n")
 while choice :
     print("Download single or multiple results?")
-    print("1. Single Result\n2. Multiple Results")
+    print("1. Single Admit Card\n2. Multiple Admit Card")
     choice = int(input("3. Exit\n"))
     
     if choice == 1 :

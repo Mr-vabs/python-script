@@ -15,13 +15,20 @@ cd python-script
 
 ## install the necessary modules
 ```
-pip install wget html2image
+pip install wget html2image pyttsx3
 ```
+
+`Note: speak.py and result.py not supported in Android`
 
 ## run the code 
 - for admit card 
 ```
 python admit.py
+```
+
+- for verification card 
+```
+python verify.py
 ```
 
 - for results 
