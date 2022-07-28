@@ -1,6 +1,8 @@
 import pyttsx3
 engine = pyttsx3.init('espeak') # object creation
 
+print("Not supported in Android and highly unstable for any devices for now\n")
+
 """ RATE"""
 rate = engine.getProperty('rate')   # getting details of current speaking rate
 print (rate)                        #printing current voice rate

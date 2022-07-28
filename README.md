@@ -18,7 +18,7 @@ cd python-script
 pip install wget html2image pyttsx3
 ```
 
-`Note: speak.py and result.py not supported in Android`
+`Note: speak.py and result.py not supported in Android and speak.py is highly unstable`
 
 ## run the code 
 - for admit card 
