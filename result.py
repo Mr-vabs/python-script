@@ -1,4 +1,5 @@
 # url = http://result.bteupexam.in/Odd_Semester/main/result.aspx?Roll_no=E1......
+# url = http://result.bteupexam.in/Even_Semester/main/result.aspx?Roll_no=E1......
 # from html2image import Html2Image
 # hti = Html2Image()
 # link = 'http://result.bteupexam.in/Odd_Semester/main/result.aspx?Roll_no=E1.......'
@@ -29,8 +30,14 @@ while choice :
     choice = int(input("3. Exit\n"))
     
     if choice == 1 :
+        print("\n\nFor Odd Even Semesters\n\n1. Odd semester choose 1\n2. Even Semester choose 2")
+        sem = int(input("Enter 1 or 2 :: "))
         enum = input("\n\nEnter enrollment number:: ")
-        link = "http://result.bteupexam.in/Odd_Semester/main/result.aspx?Roll_no="+enum
+        if sem == 1:
+          link = "http://result.bteupexam.in/Odd_Semester/main/result.aspx?Roll_no="+enum
+        if sem == 2:
+          link = "http://result.bteupexam.in/Even_Semester/main/result.aspx?Roll_no="+enum
+        
         filename = enum+".png"
         download(link,filename)
     
@@ -41,12 +48,18 @@ while choice :
         low = int(lowenum[1::])
         up = int(upenum[1::])
         up = up + 1
+        print("\n\nFor Odd Even Semesters\n\n1. Odd semester choose 1\n2. Even Semester choose 2")
+        sem = int(input("Enter 1 or 2 :: "))
         
         for i in range(low, up) :
             enum = upenum[:1:]
             i = f'{i}'
             enum = enum + i
-            link = "http://result.bteupexam.in/Odd_Semester/main/result.aspx?Roll_no="+enum
+            if sem == 1:
+              link = "http://result.bteupexam.in/Odd_Semester/main/result.aspx?Roll_no="+enum
+            if sem == 2:
+              link = "http://result.bteupexam.in/Even_Semester/main/result.aspx?Roll_no="+enum
+        
             filename = enum+".png"
             download(link,filename)
     
