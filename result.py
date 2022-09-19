@@ -36,7 +36,7 @@ while choice :
         if sem == 1:
           link = "http://result.bteupexam.in/Odd_Semester/main/result.aspx?Roll_no="+enum
         if sem == 2:
-          link = "http://result.bteupexam.in/Even_Semester/main/result.aspx?Roll_no="+enum
+          link = "http://result.bteevaluation.co.in/even_test22testadc/main/oddresult.aspx?Roll_no="+enum
         
         filename = enum+".png"
         download(link,filename)
@@ -58,7 +58,7 @@ while choice :
             if sem == 1:
               link = "http://result.bteupexam.in/Odd_Semester/main/result.aspx?Roll_no="+enum
             if sem == 2:
-              link = "http://result.bteupexam.in/Even_Semester/main/result.aspx?Roll_no="+enum
+              link = "http://result.bteevaluation.co.in/even_test22testadc/main/oddresult.aspx?Roll_no="+enum
         
             filename = enum+".png"
             download(link,filename)
